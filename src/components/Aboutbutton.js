@@ -1,22 +1,12 @@
 import React from 'react'
+import {BrowserRouter as Link} from 'react-router-dom'
 
 class Aboutbutton extends React.Component {
-	constructor() {
-        super()
-        this.state = {
-            view: ' '
-        }
-        this.handleClick = this.handleClick.bind(this)
-    }
-	handleClick() {
-		this.setState = {
-			view: 'about'
-		}
-	}
-
 	render() {
 		return (
-				<button onClick={this.handleClick}>About</button>
+			<Link to='/about'>
+				<button >About</button>
+			</Link>
 		)
 	}
 }

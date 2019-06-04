@@ -5,7 +5,7 @@ import Message from './Message'
 class Construction extends React.Component {
     render() {
         return (
-            <div className='construction'>
+            <div className='mainwrapper'>
                 <Logo />
                 <Message />
             </div>
