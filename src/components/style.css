@@ -1,0 +1,81 @@
+*{
+	font-family: 'Quattrocento', serif;
+}
+
+div.container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;	
+}
+
+div.header {
+	flex:0;
+	height: 10vh;
+	background: black;
+	display: flex;
+	justify-content: flex-end;
+}
+
+ul.header {
+	display: inline;
+}
+
+button {
+	margin-left: 1pt;
+	background-color: whitesmoke;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+div.mainwrapper {
+	flex:1;
+	display: flex;
+	flex-direction: column;
+}
+
+img.logo {
+	flex:1;
+	margin: auto;
+	max-height: 40vh;
+	width: 90vw;
+	object-fit: contain;	
+}
+
+div.text {
+	flex:1;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+div.Footer {
+	text-align: center;
+}
+
+
+/* unvisited link */
+a:link {
+	color:black;
+  }
+  
+  /* visited link */
+a:visited {
+	color: black;
+  }
+  
+  /* mouse over link */
+a:hover {
+	color: black;
+  }
+  
+  /* selected link */
+a:active {
+	color: black;
+  }
+
